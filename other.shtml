@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Resources</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li id="current"><a href="other.shtml">Other Info</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+		<h2>Other info:</h2>
+		<p><b>Graphic Element Created from scratch:</b> Website's Logo</p>
+		<p><b>Type of embedded media:</b>Rollover sound in top navigation bar</p>
+		<p><b>Secondary navigation system:</b>Site-map at footer</p>
+		<p><b>Rollover image:</b> Website's Logo</p>
+		<p><b>Javascript:</b>Rollover sound in top navigation bar</p>
+		<p><b>Summary:</b>I'm pretty satisfied with my website. I feel the navigation
+		is pretty good, remaining constant and clean for the owner's purposes. The logo 
+		was a success, with an 'abstract' pizza behind the curvy letters representing the
+		roundness of pizza. Third, the site-map at the bottom looks pretty organized
+		and looks like that of any other website.</p>
+		<p>One thing I wanted to improve was the food menu. I was hoping to be able
+		to use selectors in order to make an order. A second thing that could have
+		used improvement is the layout of the menus, which could have reduced scrolling.
+		</p>
+		
+		<p><b>Extra work:</b> I feel my extra work can be seen in using SSI for my header and footer.
+		I also included a location of where the restaurant is located in google maps, and personally
+		I feel I put a lot of effort in the footer and header, whose design I consider exceptional design.</p>
+
+	</div>
+	
+	</div>
+
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+
+	</body>
+</html>

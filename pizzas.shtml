@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Pizzas</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li id="current"><a href="pizzas.shtml">Pizza</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+		<h1>Speciality Pizza:</h1>
+	
+		<figure>
+			<img src="images/pizza.jpg" alt="One of our delicious pizzas">
+		</figure>
+		
+		<ul>
+
+		<li><h3>Salmon Pizza:</h3>Salmon, pepper, feta cheese. <br> 14.50! (M) / $19.00 (L) </li>
+		
+		<li><h3>Teriyaki Pizza:</h3> Garlic, Chicken, Teriyaki Sauce, Onion,
+		Mozarella Cheese $13.75! (M) / $18.00 (L)</li>
+		
+		<li><h3>Pepperoni-Mushroom  Pizza:</h3> Pepperoni, Mushrooms, Mozarella Cheese $13.50! (M) / $17.50 (L)</li>
+		
+		
+		<li><h3>Hawaiian Pizza:</h3> Pinnapple, Ham or Bacon,
+		Mozarella Cheese $14.00! (M) / $18.50 (L)</li>
+		
+		</ul>
+		
+		<h1>Make your own pizza!</h1>
+		
+		<h2>Sizes:</h2>
+		<ul>
+		<li>Slice: $2.00</li>
+		<li>Small: $8.00</li>
+		<li>Medium: $13.50</li>
+		<li>Large: $17.00</li>
+		<li>Deluxe Supreme: $30.00</li> 
+		</ul>
+		
+		<figure>
+			<img src="images/pizza2.jpg" alt="One of our delicious pizzas">
+		</figure>
+		
+		<h2>Cheese:</h2>
+		<ul>
+		<li>Mozzarella</li>
+		<li>Cheddar</li>
+		<li>Provolone</li>
+		<li>Feta</li>
+		</ul>
+		
+		
+		<h2>Ingredients:</h2>
+		<ul>
+		<li>Pepper</li>
+		<li>Onion</li>
+		<li>Garlic</li>
+		<li>Pepperoni +$1.00</li>
+		<li>Mushrooms +$0.50</li>
+		<li>Pineapples +$1.00</li>
+		<li>Bacon +$1.00</li>
+		<li>Salmon+$1.50</li>
+		<li>Chicken+$1.00</li>
+		<li>Ham+$0.50</li>
+		</ul>
+	</div>
+
+	</div>
+	
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>

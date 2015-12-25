@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Education</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	<div id="content" style="min-height:400px">		
+		<h1>Welcome!</h1>
+		
+		<figure style="margin-top:0px; margin-bottom:5px;">
+			<img src="images/oven.jpg" alt="Our cooking facility...">
+		</figure>
+		
+		<h2>Updates</h2>
+		<ul style="margin-right:20px">
+		<li style="margin-bottom:20px">Try our new Salmon Pizza! With sweet, spicy red pepper, fetta cheese, and our crunchiest
+		bread dough crust, we can guarantee you'll want more! Only $14.50! (M) / $19.00 (L) </li>
+		
+		<li style="margin-bottom:20px">Did you hear? We have a new pizza in town. Our new Teriyaki Pizza not only promises
+		to be one of our best with it's garlic-seasoned chicken, but it guarantees it with it's 
+		teriyaki-tomato sauce! Only $13.50! (M) / $17.50 (L)</li>
+
+		<li style="margin-bottom:20px">Mikki's Pizzeria is proud to announce <a href="subs.shtml" style="color:#6F3900">subs</a>! 
+		Try any size or style. You tell us what you want, we make it! </li>
+		
+		</ul>
+		
+
+		
+	</div>
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>

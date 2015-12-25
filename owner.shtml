@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Owner</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li id="current"><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+		<h1>About Us</h1>
+		
+		<figure>
+			<img src="images/owner.jpg" alt="Me, Mikki the owner">
+		</figure>
+		
+		<h2>The Owner</h2>
+		<p>Hi! I'm Mikki Kanagawa!</p>
+		<p>I grew up in Japan, but have always loved American cuisine! My favorite 
+		one is of course, pizza! Since I was little, I always dreamed of owning my own
+		little pizzeria. Now that I have successfully migrated to America, I can finally make
+		my dream come true (since nobody eats pizza in Japan)!</p>
+		
+
+		
+		<h2>Our Philosophy</h2>
+		<p>
+		Pizza is not just food. It's an art. At Mikki's Pizzeria, we believe art
+		should be done only with the freshest, rawest materials. That's why we only use 
+		fresh, organic ingredients in all of our pizzas. All our dough is homemade, and you'll
+		find that our oven-cooked pizzas are the crunchiest, tastiest, and most delicious in the market!
+		</p>
+		
+		<p>But don't take our word for it! Come try it yourself! </p>
+		
+	</div>
+	
+	</div>
+	
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>

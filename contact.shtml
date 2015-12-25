@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Martin Suarez Sandoval</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li id="current"><a href="contact.shtml">Contact</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+			<h1>Contact</h1>
+			<p>Call us at: <br></p>
+			<h3>(585) 545-5458</h3>
+			
+			<h2>Location</h2>
+			Come visit us at Park Point Plaza! Located near Rochester Institute of Technology, near Jefferson Road!
+			<p>Address: <br>300 Park Point Drive<br>
+			Rochester, NY 14623</p>
+			<iframe 
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.4028159913069!2d-77.65595935044146!3d43.09166738213947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d14c8320460f13%3A0xb817bed0715b6efb!2s300+Park+Point+Dr%2C+Rochester%2C+NY+14623!5e0!3m2!1sen!2sus!4v1428682485211" 
+			width="400" height="300" style="border:none"> </iframe>
+	</div>
+	
+	</div>
+	
+	
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>

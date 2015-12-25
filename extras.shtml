@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Extras</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li><a href="pizzas.shtml">Pizza</a>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li id="current"><a href="extras.shtml">Extras</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+		<h1>Extras:</h1>
+		
+		<figure>
+			<img src="images/fries.jpg" alt="One of our delicious pizzas">
+		</figure>
+		
+		<h2>Sides:</h2>
+		<ul>
+		<li>French Fries: $2.99</li>
+		<li>Cheese Fries: $3.99</li>
+		<li>Chilli Fries: $4.99</li>
+		<li>Garlic Bread: $2.99</li>
+		<li>Onion Rings: $3.99</li>
+		<li>Fried Mushrooms: $3.99</li>
+		<li>Pizza Logs: $4.99</li>
+		</ul>
+		
+		<h2>Beverages:</h2>
+		<h3>Canned Soda: $0.99</h3>
+		<ul>
+		<li>Coke</li>
+		<li>Diet Coke</li>
+		<li>Root Beer</li>
+		<li>Orange Soda</li>
+		<li>Sprite</li>
+		</ul>
+		
+		<h3>2 Liter Soda: $2.75</h3>
+		<ul>
+		<li>Coke</li>
+		<li>Diet Coke</li>
+		<li>Sprite</li>
+		</ul>
+		
+	</div>
+
+	</div>
+
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>

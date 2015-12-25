@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Subs</title>
+	</head>
+	<body>
+	<script type="text/javascript" src="media/sound-mouseover.js"></script>
+<div id="header">
+
+	<a id="h_logo" href="index.shtml"></a>
+	
+	<div id="h_info">
+		<p>
+		Call Us Now!<br>
+		<b>(585) 545-5458</b><br>
+	</div>
+	
+	<div id="h_navbar">
+		<ul>
+			<a href="pizzas.shtml" onmouseover="playclip();"><li>Menu</li></a>
+			<a href="bar.shtml" onmouseover="playclip();"><li>Bar</li></a>
+			<a href="owner.shtml" onmouseover="playclip();"><li>About</li></a>
+			<a href="contact.shtml" onmouseover="playclip();"><li>Contact</li></a>
+			<a href="resources.shtml" onmouseover="playclip();"><li>Resources</li></a>
+		</ul>
+	</div>
+
+</div>
+	
+	<div id="content">
+	<div id="c_left">
+		<ul>
+			<li><a href="pizzas.shtml">Pizza</a></li>
+			<li id="current"><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul>
+	</div>
+		
+	<div id="c_content">
+		
+		<h1>Our delicious subs:</h1>
+		
+		<figure>
+			<img src="images/sub.jpg" alt="One of our delicious subs">
+		</figure>
+		
+		<h2>Sizes:</h2>
+		<ul>
+		<li>Small: $3.99</li>
+		<li>Medium: $5.99</li>
+		<li>Large: $9.99</li>
+		</ul>
+		
+		<h2>Bread:</h2>
+		<ul>
+		<li>9-Grain Wheat</li>
+		<li>Italian</li>
+		<li>Rosemary Garlic</li>
+		<li>White</li>
+		</ul>
+		
+		<h2>Choose a Meat:</h2>
+		<ul>
+		<li>Ham</li>
+		<li>Turkey Ham</li>
+		<li>Chicken</li>
+		<li>Salmon</li>
+		<li>Steak</li>
+		<li>Meatballs</li>
+		</ul>
+		
+		<h2>Cheese:</h2>
+		<ul>
+		<li>Mozzarella</li>
+		<li>Cheddar</li>
+		<li>Provolone</li>
+		<li>Feta</li>
+		</ul>
+		
+		<figure>
+			<img src="images/plant.jpg" alt="One of our ingredients.">
+		</figure>
+		
+		<h2>Fresh Toppings:</h2>
+		<ul>
+		<li>Cucumber</li>
+		<li>Tomatoes</li>
+		<li>Green Bell Peppers</li>
+		<li>Lettuce</li>
+		<li>Olives</li>
+		<li>Jalapeños</li>
+		<li>Pickles</li>
+		<li>Onion</li>
+		<li>Mushrooms +$0.50</li>
+		<li>Pineapples +$1.00</li>
+		<li>Bacon +$1.00</li>
+		<li>Olive Oil</li>
+		<li>Vinegar</li>
+		<li>Mustard</li>
+		<li>Mayonnaise</li>
+		<li>Ketchup</li>
+		</ul>
+	</div>
+
+	</div>
+
+	<div id="footer">
+
+	<div id="f_left">
+		<p>Go back to developer's <a href="../index.html">Homepage</a>.</p>
+	</div>
+	
+	<div id="f_right">
+		<p>All content in this page is copyrighted by <i>Mikki's Pizza &copy;</i> unless otherwise
+		stated in the <a href="resources.shtml">Resources</a> section of this website.</p>
+	</div>
+	
+	<div id="f_center">
+		<p>Sitemap:</p>
+		<table>
+		<td><ul>
+			<li>Menu</li>
+			<li><a href="pizzas.shtml">Pizzas</a></li>
+			<li><a href="subs.shtml">Subs</a></li>
+			<li><a href="extras.shtml">Extras</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Bar</li>
+			<li><a href="bar.shtml">Bar</a></li>
+			<li><a href="parties.shtml">Parties</a></li>
+		</ul></td>
+		<td><ul>
+			<li>About</li>
+			<li><a href="owner.shtml">Owner</a></li>
+			<li><a href="reviews.shtml">Reviews</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Contact</li>
+			<li><a href="contact.shtml">Contact</a></li>
+		</ul></td>
+		<td><ul>
+			<li>Resources</li>
+			<li><a href="resources.shtml">Resources</a></li>
+			<li><a href="other.shtml">Other</a></li>
+		</ul></td>
+		</table>
+	</div>
+	
+	</div>
+
+	<audio>
+	<source src="media/click.mp3"></source>
+	<source src="media/click.ogg"></source>
+	</audio>
+	<div id="sounddiv"><bgsound id="sound"></div>
+	</body>
+</html>
